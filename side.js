@@ -4,7 +4,7 @@ var projectDescription = document.getElementById("descrip");
 descriptionHeader.style.visibility='hidden';
 projectDescription.style.visibility='hidden';
 
-function Show(description){
+function Show(description, url=""){
     
     descriptionHeader.style.visibility='visible';
     projectDescription.style.visibility='visible';
