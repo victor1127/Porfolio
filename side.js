@@ -1,9 +1,15 @@
-var description = document.getElementById("project-description");
-description.style.visibility='hidden';
+var descriptionHeader = document.getElementById("project-description");
+var projectDescription = document.getElementById("descrip");
 
-function Show(id){
-    description.style.visibility='visible';
+descriptionHeader.style.visibility='hidden';
+projectDescription.style.visibility='hidden';
 
+function Show(description){
+    
+    descriptionHeader.style.visibility='visible';
+    projectDescription.style.visibility='visible';
+
+    projectDescription.innerHTML= description;
 
 
 }
