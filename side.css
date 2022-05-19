@@ -82,6 +82,7 @@ a:hover{
     background-color: white;
     height: 90vh;
     overflow: auto;
+
 }
 
 .text-item{
@@ -249,4 +250,169 @@ a:hover{
 
 .nav-item-link:hover{
     color:purple;
+}
+
+.about-me-section{
+    height: 90vh;
+    padding-left: 32px;
+    padding-right: 32px;
+
+    padding-top: 20px;
+}
+
+.about-hr{
+    width: 70px;
+    height: 8px;
+    background-color: purple;
+}
+
+.about-container{
+    width: 100%;
+    height: 75%;
+    padding-top: 20px;
+    padding-bottom: 25px;
+
+}
+
+.about-details{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.about-detail-me{
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    overflow: auto;
+}
+
+.about-hire-me{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:845px){
+    .about-hire-me{
+        display: none;
+    }
+
+    .about-detail-me{
+        width: 100%;
+    }
+}
+
+.hire-me-about-link{
+    font-size: 10rem;
+    font-weight:bold;
+    font-family:'Times New Roman', Times, serif;
+    color: #f0f0f2;
+}
+#link-about-hire-me{
+    text-decoration: none;
+}
+
+.hire-me-about-link:hover{
+    color:purple;
+}
+
+.me{
+    color: purple;
+}
+
+#contact-me-section{
+    width: 100%;
+    height: 90vh;
+    background-color: white;
+}
+
+.contact-me-header{
+    color:#4d4d4d;
+    width: 100%;
+    height: auto;
+    padding-left: 32px;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.h-bold{
+    font-weight: bold;
+}
+
+.contact-form-container{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    height: auto;
+}
+
+.contact-form{
+    width: 30%;
+    height: 100%;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background:linear-gradient(to top, rgba(255,255,255,0.8),rgba(128, 0, 128, 0.7));
+    margin-right: 50px;
+
+}
+
+@media (max-width:1181px){
+    .contact-form-container{
+        justify-content: center;
+    }
+    .contact-form{
+        width: 50%;
+    }
+    
+}
+
+@media (max-width:1036px){
+    .contact-form{
+        width: 50%;
+    }
+}
+
+@media (max-width:661px){
+    .contact-form{
+        width: 75%;
+    }
+}
+
+@media (max-width:490px){
+    .contact-form{
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
+.contact-text-area{
+    height: 200px;
+}
+
+.btn-purple{
+    background-color: purple;
+    color: white;
+}
+
+.btn-purple:hover{
+    background-color: rgb(133, 74, 133);
+}
+
+.btn-outline-purple{
+    border:solid 1px purple;
+}
+.btn-outline-purple:hover{
+    background-color: rgb(133, 74, 133);
+}
+
+.input-purple{
+    background-color: #f1e4f1;
+}
+
+.footer{
 }
