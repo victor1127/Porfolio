@@ -88,9 +88,10 @@ a:hover{
 .text-item{
     letter-spacing: 3.5px;
     text-align: center;
-    color:black;
+    color:#4d4d4d;
     padding-top: 50px;
     padding-bottom: 10px;
+    font-weight: bold;
 }
 
 .all-projects{
@@ -414,5 +415,7 @@ a:hover{
     background-color: #f1e4f1;
 }
 
-.footer{
+.btns-contact-form{
+    display: flex;
+    justify-content: end;
 }
