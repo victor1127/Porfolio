@@ -36,29 +36,34 @@
             <h1 class="text-item display-2">Projects</h1>
             <div class="all-projects">
                 <div class="project-detail">
-                    <h3 id="project-description">Description</h3>
-                    <p id="descrip" class="test"></p>
+                    
+                    <h2 id="project-description"></h2>
+                    <p id="descrip" class="test"></p>           
+                    <a hidden id="link-project-description" target="_blank">Go to project</a>
      
                 </div>
                 <div class="project-body">
-                    <div class="project" id="project1" onclick="Show('Project 1','This is a url')">
+                    <div class="project" id="project1" onclick="Show('Project 1')">
                         <div class="project-inside">
-                            <a class="project-link" href="#" target="_blank">
+                            <a class="project-link" href="" target="_blank">
                                 <div class="project-name">
                                 </div>
                                 Go to project
                             </a>                
                         </div>
                     </div>
-                    <div class="project" id="project2" onclick="Show('project 2')">
+
+                    <div class="project" id="project2"
+                     onclick="Show('Dogo','Dogo is a website that takes information from the public Dog API and display their breeds and sub-breeds. When selecting a sub-breed its picture and some extra information is displayed to the user.','https:/dog-mvc-api.herokuapp.com/')">
                         <div class="project-inside">
-                            <a class="project-link" href="#" target="_blank">
+                            <a class="project-link"  target="_blank">
                                 <div class="project-name">
                                 </div>
                                 Go to project
                             </a>                
                         </div>
                     </div>
+
                     <div class="project" id="project3" onclick="Show('project 3')">
                         <div class="project-inside">
                             <a class="project-link" href="#" target="_blank">
