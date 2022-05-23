@@ -144,12 +144,10 @@ a:hover{
     background-color: #f7f8fc;
     margin:3px;
     box-shadow: 1px 1px 1px 1px rgba(141, 86, 218, 0.5);
-
 }
 
 .project:hover{
-    width: 250px;
-    height: 250px;
+    opacity: 0.5;
 }
 
 @media (max-width:875px){
@@ -167,50 +165,50 @@ a:hover{
 
 
 #project1{
-    background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.3)),url(/img/bhL3yZxM.jpg);
+    background:url(/img/bhL3yZxM.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #project2{
-    background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.3)),url(/img/dog-paw-profile.jpg);
+    background:url(/img/dog-paw-profile.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #project3{
-    background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.3)),url(/img/bhL3yZxM.jpg);
+    background:url(/img/bhL3yZxM.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #project4{
-    background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.3)),url(/img/bhL3yZxM.jpg);
+    background:url(/img/bhL3yZxM.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #project5{
-    background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.3)),url(/img/bhL3yZxM.jpg);
+    background:url(/img/bhL3yZxM.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #project6{
-    background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.3)),url(/img/bhL3yZxM.jpg);
+    background:url(/img/bhL3yZxM.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #project7{
-    background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.3)),url(/img/bhL3yZxM.jpg);
+    background:url(/img/bhL3yZxM.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #project8{
-    background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.3)),url(/img/bhL3yZxM.jpg);
+    background:url(/img/bhL3yZxM.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
