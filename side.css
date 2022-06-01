@@ -429,5 +429,7 @@ a:hover{
 }
 
 .recaptcha{
-    width: 300px;
+    width: auto;
+    background-color: red;
+    overflow-x: auto;
 }
