@@ -228,6 +228,7 @@ a:hover{
     height: 100%;
     text-decoration: none;
     text-align: center;
+    background-color: red;
 }
 
 .project-name{
