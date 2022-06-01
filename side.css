@@ -326,7 +326,7 @@ a:hover{
 
 #contact-me-section{
     width: 100%;
-    height: auto;
+    height: 100vh;
     background-color: white;
 }
 
