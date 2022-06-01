@@ -431,5 +431,5 @@ a:hover{
 .recaptcha{
     width: auto;
     background-color: red;
-    overflow-x: auto;
+    overflow-y: auto;
 }
