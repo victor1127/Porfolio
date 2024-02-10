@@ -2,12 +2,21 @@ main>.container {
     padding: 60px 15px 0;
 }
 
-body{
-    font-family: 'Protest Riot', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    background-color: #ECE8E3;
+.f-family-oswald{
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
 }
 
-.bg-soft{
-    background-color: #ECE8E3;
+.font-color-brown{
+    color: #AC9880;
+}
+
+.heightvh{
+    height: 75vh;
+}
+
+@media screen and (max-width:1500px){
+    .heightvh{
+        height: auto;
+    }
 }
