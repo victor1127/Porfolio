@@ -242,31 +242,31 @@
         <section class="container my-5">
             <h1 class="text-center f-family-oswald-40 mb-4">Contacta me!</h1>
             <div class="border contact-form-shadow p-2">
-                <form method="POST" data-netlify="true" name="contact" netlify>
+                <form method="POST" data-netlify="true" name="contact">
                     <div class="row mb-2 row-cols-1 row-cols-md-2 gy-2">
                         <div class="col">
-                            <input class="form-control" type="text" placeholder="Nombre" id="firstName" aria-label="First name" required>
+                            <input class="form-control" name="Nombre" type="text" placeholder="Nombre" id="firstName" aria-label="First name" required>
                         </div>
                         <div class="col">
-                            <input class="form-control" type="text" placeholder="Apellido" id="lastName" aria-label="Last name" required>
+                            <input class="form-control" name="Apellido" type="text" placeholder="Apellido" id="lastName" aria-label="Last name" required>
                         </div>
                     </div>
 
                     <div class="row mb-2 row-cols-1 row-cols-md-2 gy-2">
                         <div class="col">
-                            <input class="form-control" type="email" placeholder="Email" id="email" required>
+                            <input class="form-control" name="email" type="email" placeholder="Email" id="email" required>
                         </div>
                         <div class="col">
-                            <input class="form-control" type="number" placeholder="Tel (Opcional)" id="Phone">
+                            <input class="form-control" name="number" type="number" placeholder="Tel (Opcional)" id="Phone">
                         </div>
                     </div>
                 
                     <div class="row mb-2 gy-2">
                         <div class="col-12">
-                            <input class="form-control" type="text" placeholder="Subject" id="subject" required>
+                            <input class="form-control" name="subject" type="text" placeholder="Subject" id="subject" required>
                         </div>
                         <div class="col-12">
-                            <textarea class="form-control" id="message" placeholder="Mensaje" required></textarea>
+                            <textarea class="form-control" name="message" id="message" placeholder="Mensaje" required></textarea>
                         </div>
                     </div>
 
