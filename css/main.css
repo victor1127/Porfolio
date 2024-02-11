@@ -4,14 +4,17 @@ main>.container {
 
 .f-family-oswald{
     font-family: 'Oswald', sans-serif;
-    font-size: 60px;
+    font-size: 50px;
 }
 
 .f-family-oswald-40{
     font-family: 'Oswald', sans-serif;
-    font-size: 40px;
+    font-size: 30px;
 }
 
+.contact-form-shadow{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
 .font-color-brown{
     color: #AC9880;
 }
